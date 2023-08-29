@@ -4,7 +4,7 @@ const pen = {
 		ctx.fillRect(0, 0, 1, 1)
 		ctx.fill()
 	},
-	rainbow_line: (ps) => {
+	rainbow_line: ps => {
 		ctx.lineCap = 'square'
 		ctx.fillStyle = 'white'
 
