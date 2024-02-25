@@ -56,6 +56,6 @@ fractal(i)
 
 document.onmousedown = e => {
 	i += (e.button == 0) - (e.button == 2)
-	i = Math.max(1, Math.min(7, i))
+	//i = Math.max(1, Math.min(7, i))
 	fractal(i)
 }
